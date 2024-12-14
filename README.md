@@ -1,0 +1,2 @@
+# PHP Unexpected String Concatenation
+This example demonstrates a common issue in PHP related to loose typing and its impact on arithmetic operations. When a string is encountered during a numeric calculation, PHP performs string concatenation instead of numeric addition, resulting in potentially unexpected output. The solution involves type checking or using a stricter type system to avoid these errors.
